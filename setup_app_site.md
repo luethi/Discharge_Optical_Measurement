@@ -1,1 +1,0 @@
-Setting up a site for Discharge app
