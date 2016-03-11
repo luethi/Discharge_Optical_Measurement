@@ -1,13 +1,8 @@
 [Welcome to the 'Discharge' technology](home)
 
-[Choosing a site for App](choosing_site_app)
+[Choosing a site](choosing_site)
 
-[Choosing a site for Keeper](choosing_site_keeper)
+[Setup the site](setup_site)
 
-[Setting up a site for App](setup_app_site)
+[Running the site](running_site)
 
-[Setting up a site for Keeper](setup_keeper_site)
-
-[Configuring the DischargeKeeper](config_keeper)
-
-[Running the DischargeKeeper](running_keeper)
