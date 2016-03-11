@@ -1,0 +1,12 @@
+how to maintain the website 
+
+http://luethi.github.io/Discharge_Optical_Measurement
+
+edit wiki on github
+
+press 'Clone in Desktop' button
+
+locally WITH BRANCH SET TO MASTER on your PC translate *.md to *.html (home.md->index.html)
+
+copy past the created html files, via a tmp folder to THE GH-PAGES BRANCH, and synch to cloud.
+

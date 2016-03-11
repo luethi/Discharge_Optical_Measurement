@@ -14,7 +14,7 @@
 10. Do you have internet? If not, do you have reasonable GSM signal quality and strength, i.e. edge and better and 1/5 bars?
 
 ## Next steps:
-If you can answer all these questions with 'yes' please go to [Setting up a DischargeKeeper site](setup_keeper_site).
+If you can answer all these questions with yes please go to [Setting up a DischargeKeeper site](setup_keeper_site).
 
 If you are in doubt about some points, please contact a human @[photrack](mailto:info@photrack.ch).
 
