@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Discharge, Measured by Webcam or Smartphone, photrack.ch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Discharge</h1>
+      <h2 class="project-tagline">Measured by Webcam or Smartphone</h2>
+      <!-- <a href="http://www.photrack.ch" class="btn">photrack Ltd</a>-->
+      <!-- <a href="http://staging.discharge.ch" class="btn">discharge.ch</a>-->
+	 <a href="index.html" class="btn">Discharge technology</a>
+	 <a href="choosing_site.html" class="btn">Choosing a site</a>
+	 <a href="setup_site.html" class="btn">Setup the site</a>
+	 <a href="running_site.html" class="btn">Running the site</a>	   
+    </section>
+
+    <section class="main-content">
+
+<!-- begin of my stuff -->	
+<!-- begin of my stuff -->	
+<!-- begin of my stuff -->	
+      
+	 <!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
+<h1><a id="Setting_up_a_Discharge_site_0"></a>Setting up a Discharge site</h1>
+<p>app, keeper, multi view? how to choose.</p>
+<h2><a id="Placing_Markers_6"></a>Placing Markers</h2>
+<p>Both, the Discharge App and the DischargeKeeper need to know where your camera is located and how much it is zooming into the scene. For the app this is done via 4 markers, 2 on each side of the river. The rest is done via additional smartphone senors.</p>
+<p>For the DischargeKeeper it is enough to have 2 permanent markers on the far shore and to know the exact camera position.</p>
+<p>The markers should be positioned on the outer corners of your view, but not too close, such that after small camera movements still all markers are visible.</p>
+<p>The markers should be permanent, visible in different light conditions and vandalism proof. The first points are technical, but the last one is very much dependent on the local constext. As a rule of thumb we have learned that the community should know what these markers are used for, and better even the community should be involved.</p>
+<p>Very often it is a good solution to spray or paint the markers onto the wall or rocks of the channel/furrow. If there is onyl earth the markers can be burried rocks, or poles, or cemented poles. As colors a good choice is some dark (black) background and some bright (white) clear feature, like a cross or a circle. The scale of the features can range from 5cm on a distance of 2m to 50cm on a distance of 20m.</p>
+<p>SUPPORTING FIGURE</p>
+<h3><a id="Special_things_for_multiview_camera_setups_20"></a>Special things for multi-view camera setups</h3>
+<p>Essentially level view needs to be marked like normal, but for other views it is enough to have to additional points, such that together with level views they span a volume rather than only a plane. The camera internalt PTZ measures are then enough to determine the camera angles from within the DischargeKeeper (NOTE: NOT YET ACCOMPLISHED!!!)</p>
+<p>To measure in the markers position, there are essentially three options, explained below. The coordinate system that is used for Discharge App and DischargeKeeper is always the follwoing. x: parallel to streamwise direction, looked from the camera x is going from left to right. y: spanwise direction accross the river starting from the camera. z: vertical, from bottom into the sky.</p>
+<h2><a id="Measuring_Markers_26"></a>Measuring Markers</h2>
+<ol>
+<li>markers on a horizontal plane</li>
+</ol>
+<p>The markers have a known distance to a regular profile (rectangle, parabolic, semicircle, trapezoidal)</p>
+<p>SUPPORTING FIGURE</p>
+<ol start="2">
+<li>Inter distance of markers</li>
+</ol>
+<p>The markers inter distances can be measured somehow and the position to a regular (rectangle, parabolic, semicircle, trapezoidal) channel shape can be given</p>
+<ol start="3">
+<li>Free situation</li>
+</ol>
+<p>Both the markers and the crosssectional profile are free, i.e. the x,y,z positions of the markers need to be measured as well as the y,z cross sectional profile. The exact reference of the markers to the cross section is crucial, otherwise an exact determination of the water level will not be possible</p>
+<h3><a id="Measuring_Markers_with_Leica_Disto_910_42"></a>Measuring Markers with Leica Disto 910</h3>
+<p>Since the free situation is the most general, we will expand on it a bit more. We recommend to measure the marker position with a Laser device, like e.g. the Disto 910 by Leica. Using this device, which is still relatively cheap (2000$), allows to measure from one tripod position directly an arbitrary number of positions with their x,y,z coordinates. The triangulation is performed internally and for each measured point an image is stored for later reference.</p>
+<p>We learned that the usage of a GPS system is generally not reliable. GPS and DPGS are extreemly accurate O(mm), but only in ideal conditions. River sites however are generally NOT ideal for GPS measurements; very often there is metallic bridge, a gorge, a forest or other disturbing objects close by.</p>
+<p>In the 3d modus the Leica device takes the first two points to define the x direction. In the field the x directions generally is not obvious. Over the years we learned that best practice is to simply shoot a series of 3-5 points along the water line of the far shore. During analysis this set of point will show to what degree the chosen two points are representing the best estimate for the x direction.</p>
+<p>SUPPORTING FIGURE</p>
+<p>A typical sequence for measuring markers with the Leica Disto can be as follows:</p>
+<ol>
+<li>
+<p>choose a good point for the Leica tripod, ideally on a rock. From this point you should see poth waterlines and all markers (for DischargeKeeper also the camera position). None of the points should be lower than ca. 50deg below the horizontal, as this is the limit for the device.</p>
+</li>
+<li>
+<p>Shoot 2 points at the far shore right at the waterline, which are far apart and which are representing to a good degree the streamwise direction. Shoot first the let point and then the right point. Then shoot an additional 1-3 point along the waterline.</p>
+</li>
+<li>
+<p>Shoot all marker positions</p>
+</li>
+<li>
+<p>Shoot the positions from which the crosssectional profile is defined.</p>
+</li>
+<li>
+<p>Shoot 2 positions at the closeby shore line right at the waterline.</p>
+</li>
+<li>
+<p>Shoot the camera position.</p>
+</li>
+<li>
+<p>To do all that we do not recommend to use the Leica App or the WLAN feature. It is not generally stable and can faile at random in the field. Use the USB wire fro data transmission AND DO THIS ON SITE for immediate verification. To process the Disto 3d_xxxx.dxf file use the script Disto2Markers or the built in function (NOT YET ACCOMPLISHED) from the DischargeKeeper.</p>
+</li>
+</ol>
+<p>The function Disto2Markers allows you to choose an intelligent offset for x,y,z. Generally you are free to choose whatever, but it has prooven convenient to stick with the locally existing frame of reference for y and z.</p>
+<p>SUPPORTING FIGURE</p>
+<h2><a id="Setup_Camera_73"></a>Setup Camera</h2>
+<p>when multi views, when mulit cams!!!</p>
+<p>fps, need some app verification about frame rate, blame IP cams, but cheap</p>
+<h2><a id="IR_or_LED_beamer_79"></a>IR or LED beamer</h2>
+<h2><a id="PCDischargeKeeper_Software_81"></a>PC+DischargeKeeper Software</h2>
+<p>The DischargeKeeper Software</p>
+
+</body></html>
+
+<!-- end of my stuff -->	
+<!-- end of my stuff -->	
+<!-- end of my stuff -->	
+  
+  </body>
+</html>
