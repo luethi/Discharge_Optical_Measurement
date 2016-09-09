@@ -45,7 +45,7 @@
   "video_name": "/path/to/movie/file"
   "fps": float() 
   "ip": str("ip,usr,pwd,camera_type")
-  "markers_coordinates_world": [float(x1), float(x2), float(xn), float(y1), float(y2), float(yn)] (meters)
+  "markers_coordinates_world": [float(x1), float(x2), float(xn), float(y1), float(y2), float(yn), float(z1), float(z2), float(zn)] (meters)
   "markers_descriptors": {
     "scaling": 0
     } 
