@@ -34,7 +34,7 @@
   "type": 1 (1=discharge station)
   }
   {
-  "camera_parameters": {
+  "camera_calibration": {
     "position": [float(x), float(y), float(z)] (meters)
     "omega":[float(ang_x), float(ang_y), float(ang_z)], (radians)
     "focal_length": float() (meters)
