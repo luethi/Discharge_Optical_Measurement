@@ -4,7 +4,14 @@ Oct 3 2016
 open and execute the script meas2coords.meas2coords
 All explanations are within this file. 
 
-The file to input 1 or several profile measurements has the following format below.
+The file to input one or several profile measurements has the following format below.
+
+It's name is:
+
+beamMeas.txt
+
+and you have to produce it yourself.
+
 The line starting with -1 indicates between which two markers the profile measurements were taken.
 The first column is the distance from marker 1.
 The second column is the distance to the water surface, if defined, else NaN.
