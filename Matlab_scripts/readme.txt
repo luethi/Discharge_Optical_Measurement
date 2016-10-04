@@ -1,7 +1,12 @@
 ﻿Beat Lüthi
 Oct 3 2016
 
-open and execute the script meas2coords.meas2coords
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                           meas2coords
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+open and execute the script meas2coords.txt
 All explanations are within this file. 
 
 The file to input one or several profile measurements has the following format below.
@@ -45,3 +50,15 @@ The third column is the distance to the bottom.
 0.8	NaN	0.06
 0.94	NaN	0
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                           disto2coords
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+pretty much the same, BUT in addition you need to produce a file disto.txt 
+using the python script:
+
+read_disto_dxf.py
+
+A completly working example for Wildbach is on the zipped folder:
+
+2016-09-15 10-43-32_disto
